@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.afes.store">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.afes.store.ItemsActivity"></activity>
+        <activity android:name="com.afes.store.PaymentActivity" />
+        <activity
+            android:name="com.afes.store.AddAddressActivity"
+            android:parentActivityName="com.afes.store.AddressActivity" />
+        <activity
+            android:name="com.afes.store.AddressActivity"
+            android:parentActivityName="com.afes.store.DetailActivity" />
+        <activity
+            android:name="com.afes.store.DetailActivity"
+            android:parentActivityName="com.afes.store.HomeActivity" />
+        <activity android:name="com.afes.store.ItemActivity" />
+        <activity android:name="com.afes.store.HomeActivity" />
+        <activity
+            android:name="com.afes.store.RegisterActivity"
+            android:parentActivityName="com.afes.store.MainActivity" />
+        <activity
+            android:name="com.afes.store.LoginActivity"
+            android:parentActivityName="com.afes.store.MainActivity" />
+        <activity android:name="com.afes.store.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.afes.store.MainActivity" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_16aDCdOdDuAfHO" />
+    </application>
+
+</manifest>

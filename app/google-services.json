@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389713629765",
+    "project_id": "store-app-806de",
+    "storage_bucket": "store-app-806de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389713629765:android:479de7c0ef1835bfe6492c",
+        "android_client_info": {
+          "package_name": "com.afes.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389713629765-a1p31gs1spiq0oi6hj8n44nsdfn2sqji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuQHxjdsT1qr9Kk1ToM5yjBZW3Z_fQM94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389713629765-a1p31gs1spiq0oi6hj8n44nsdfn2sqji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
